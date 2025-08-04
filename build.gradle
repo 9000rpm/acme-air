@@ -36,6 +36,9 @@ dependencies {
 	// Apache
     implementation 'org.apache.commons:commons-lang3:3.13.0'
 
+    // Jackson
+    implementation 'com.fasterxml.jackson.datatype:jackson-datatype-jsr310'
+
     // Lombok
     compileOnly 'org.projectlombok:lombok'
     annotationProcessor 'org.projectlombok:lombok'
